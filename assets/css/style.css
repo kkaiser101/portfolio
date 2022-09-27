@@ -1,3 +1,11 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+
+
+
+
 body{
     display:flex;
     flex-direction: column;
@@ -34,7 +42,26 @@ img{
     border: 10px solid rgb(199, 147, 5);
 }
 
-nav li{
+element{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    font-size: 200%;
+}
+
+element.Project1{
+    max-width: 400%;
+    display: block;
+    margin-left: 300px;
+    margin-right: 200px;
+    border: 10px solid rgb(199, 147, 5);
+
+}
+
+
+a{
     background-color: rgba(48, 110, 172, 0.562);
     border: 10px solid rgb(199, 147, 5);
 }
